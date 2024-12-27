@@ -1,0 +1,17 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flash-cards {
+    max-width: 500px;
+    margin: 0 auto;
+
+    &__content {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+}
